@@ -58,10 +58,18 @@ git clone https://github.com/Ref96/stock-research.git ~/.claude/skills/stock-res
 
 三个核心指标 + FCF Yield 五档区间 + Capex 性质判断 + 五条警示信号（任一触发强制标注）。
 
+## 自动存档
+
+分析完成后自动存档至 Obsidian，无需手动操作：
+
+- 路径：`~/Library/Mobile Documents/iCloud~md~obsidian/Documents/MAY DAY ONE/MAY DAY 1/021公司财报自研/`
+- 文件名：`[公司全称] [代码] YYYY-MM-DD.md`
+
 ## 版本历史
 
 | 版本 | 变更 |
 |------|------|
+| v1.3.0 | 分析完成后自动存档至 Obsidian，无需手动确认 |
 | v1.2.0 | 新增 #11 巴菲特市赚率（PE÷ROE%，ROE来源诊断）；新增 #12 自由现金流质量（FCF/NI比、FCF Yield、Capex性质）；长期论点升为 #13 |
 | v1.1.0 | 美股/日股双轨分析，全球同类比价 |
 | v1.0.0 | 初始版本，10项分析 |
