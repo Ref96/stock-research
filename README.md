@@ -9,6 +9,26 @@
 git clone https://github.com/Ref96/stock-research.git ~/.claude/skills/stock-research
 ```
 
+### 配置 Obsidian 自动存档（可选）
+
+分析完成后会自动存档至 Obsidian。若不想每次弹出权限确认，在 `~/.claude/settings.json` 的 `permissions.allow` 数组中加入以下规则（路径改为你自己的 Obsidian 目录）：
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Write(/path/to/your/obsidian/vault/*)"
+    ]
+  }
+}
+```
+
+示例（macOS iCloud 路径）：
+
+```json
+"Write(/Users/yourname/Library/Mobile Documents/iCloud~md~obsidian/Documents/YourVault/研究报告/*)"
+```
+
 ## 触发
 
 | 输入示例 | 说明 |
