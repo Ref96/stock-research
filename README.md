@@ -89,6 +89,7 @@ git clone https://github.com/Ref96/stock-research.git ~/.claude/skills/stock-res
 
 | 版本 | 变更 |
 |------|------|
+| v1.4.0 | 输出语言锁定为中文；底层研究可用英文/日文，最终报告统一翻译为中文呈现 |
 | v1.3.0 | 分析完成后自动存档至 Obsidian，无需手动确认 |
 | v1.2.0 | 新增 #11 巴菲特市赚率（PE÷ROE%，ROE来源诊断）；新增 #12 自由现金流质量（FCF/NI比、FCF Yield、Capex性质）；长期论点升为 #13 |
 | v1.1.0 | 美股/日股双轨分析，全球同类比价 |
