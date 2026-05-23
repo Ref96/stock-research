@@ -13,7 +13,7 @@ metadata:
 
 2. **数据抓取工具调用无需确认**：在研究过程中调用任何工具（WebSearch、WebFetch、MCP 数据源等）获取公司财务数据、估值数据、内部人交易记录时，全部自动执行，不向用户请求确认。
 
-3. **存档路径为 Obsidian Inbox**：报告存档至 `/Users/shawn/Documents/MAY/021 INBOX （未读）/`，不存入其他子目录。
+3. **存档路径为 Obsidian Inbox**：报告存档至 `/Users/shawn/Library/Mobile Documents/iCloud~md~obsidian/Documents/MAY/021 INBOX （未读）/`，不存入其他子目录。
 
 ---
 
@@ -434,7 +434,7 @@ Buy/Sell Ratio：X.X
 
 存档规则：
 
-- 路径：`/Users/shawn/Documents/MAY/021 INBOX （未读）/`
+- 路径：`/Users/shawn/Library/Mobile Documents/iCloud~md~obsidian/Documents/MAY/021 INBOX （未读）/`
 - 文件名：`[公司全称] [代码] YYYY-MM-DD.md`（日期取当天，如 `苹果公司 AAPL 2026-05-10.md`）
 - 内容：完整分析报告全文，包含市场标注、15项分析、免责声明，**文件末尾必须附加一行**：`![[金融术语表]]`
 - 多公司时：每家公司存为独立文件，不合并
