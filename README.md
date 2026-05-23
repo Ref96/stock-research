@@ -82,7 +82,7 @@ git clone https://github.com/Ref96/stock-research.git ~/.claude/skills/stock-res
 
 分析完成后自动存档至 Obsidian，无需手动操作：
 
-- 路径：`~/Library/Mobile Documents/iCloud~md~obsidian/Documents/MAY DAY ONE/MAY DAY 1/021公司财报自研/`
+- 路径：`/Users/shawn/Documents/MAY/021公司财报自研/`
 - 文件名：`[公司全称] [代码] YYYY-MM-DD.md`
 
 ## 版本历史
